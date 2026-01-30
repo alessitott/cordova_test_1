@@ -10,7 +10,7 @@ import {
   View,
 } from "react-native";
 
-import type { SearchResult } from "../src/api/carteleraApi";
+import type { SearchResult } from "../src/api/types/types";
 import { searchShows } from "../src/api/carteleraApi";
 
 const PLACEHOLDER_IMAGE = "https://via.placeholder.com/210x295?text=No+Image";
